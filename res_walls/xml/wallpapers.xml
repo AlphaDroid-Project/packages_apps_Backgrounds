@@ -193,72 +193,6 @@
             subtitle1="@string/wallpaper10subtitle"
 	    title="@string/wallpaper10title" />
 	</category>
-	<category id="riceDroid Wallpapers" title="@string/rice_title">
-		<static-wallpaper
-	    id="macapuno"
-	    subtitle1="@string/macapuno_description"
-	    subtitle2="@string/macapuno_attribution"
-	    title="@string/macapuno_title"
-            src="@drawable/riseandbloom" />
-		<static-wallpaper
-	    id="nata_de_coco"
-	    subtitle1="@string/nata_de_coco_description"
-	    subtitle2="@string/nata_de_coco_attribution"
-	    title="@string/nata_de_coco_title"
-            src="@drawable/nata_de_coco" />
-		<static-wallpaper
-	    id="obattu"
-	    subtitle1="@string/obattu_description"
-	    subtitle2="@string/obattu_attribution"
-	    title="@string/obattu_title"
-            src="@drawable/obattu" />
-		<static-wallpaper
-	    id="paella"
-	    subtitle1="@string/paella_description"
-	    subtitle2="@string/paella_attribution"
-	    title="@string/paella_title"
-            src="@drawable/blossoming_orange_flower_on_meadow" />
-	</category>
-	<category id="Midjourney x notayan99" title="@string/midjourneyxayan_title">
-		<static-wallpaper
-	    id="paella1"
-	    subtitle1="@string/paella1_description"
-	    subtitle2="@string/paella1_attribution"
-	    title="@string/paella1_title"
-            src="@drawable/paella1" />
-		<static-wallpaper
-	    id="paella2"
-	    subtitle1="@string/paella2_description"
-	    subtitle2="@string/paella2_attribution"
-	    title="@string/paella2_title"
-            src="@drawable/paella2" />
-	</category>
-	<category id="Wallfever x Rising" title="@string/wallfever_collab_title">
-		<static-wallpaper
-	    id="wf_chocolate_creme"
-	    subtitle1="@string/wf_description"
-	    subtitle2="@string/wf_attribution"
-	    title="@string/wf_chocolate_creme_title"
-            src="@drawable/wf_chocolate_creme" />
-		<static-wallpaper
-	    id="wf_orange_oracle"
-	    subtitle1="@string/wf_description"
-	    subtitle2="@string/wf_attribution"
-	    title="@string/wf_orange_oracle_title"
-            src="@drawable/wf_orange_oracle" />
-		<static-wallpaper
-	    id="wf_pink_plush"
-	    subtitle1="@string/wf_description"
-	    subtitle2="@string/wf_attribution"
-	    title="@string/wf_pink_plush_title"
-            src="@drawable/wf_pink_plush" />
-		<static-wallpaper
-	    id="wf_yellow_yard"
-	    subtitle1="@string/wf_description"
-	    subtitle2="@string/wf_attribution"
-	    title="@string/wf_yellow_yard_title"
-            src="@drawable/wf_yellow_yard" />
-	</category>
 	<category id="Nothing_2.0" title="@string/nothing_2">
 		<static-wallpaper
 	    id="nt_wallpaper_emyl_dark"
@@ -453,32 +387,6 @@
 	        src="@drawable/porcelain_light"
 	        title="@string/porcelain_light" />
 	</category>
-	<category id="Rising Two" title="@string/risingtwo_title">
-		<static-wallpaper
-	        id="risingtwo_v1"
-	        src="@drawable/risingtwo_v1"
-	        title="@string/risingtwo_v1" />
-		<static-wallpaper
-	        id="risingtwo_v2"
-	        src="@drawable/risingtwo_v2"
-	        title="@string/risingtwo_v2" />
-		<static-wallpaper
-	        id="risingtwo_v3"
-	        src="@drawable/risingtwo_v3"
-	        title="@string/risingtwo_v3" />
-		<static-wallpaper
-	        id="risingtwo_v4"
-	        src="@drawable/risingtwo_v4"
-	        title="@string/risingtwo_v4" />
-		<static-wallpaper
-	        id="risingtwo_v5"
-	        src="@drawable/risingtwo_v5"
-	        title="@string/risingtwo_v5" />
-		<static-wallpaper
-	        id="risingtwo_v6"
-	        src="@drawable/risingtwo_v6"
-	        title="@string/risingtwo_v6" />
-	</category>
 	<category id="Pixel 8 Minerals" title="@string/pixel8a_minerals_title">
 		<static-wallpaper
 	        id="titanite_d"
@@ -520,32 +428,6 @@
 	        src="@drawable/p8-porcelain-light"
 	        title="@string/p8-porcelain-light"
 	        subtitle1="@string/p8_collection_desc" />
-	</category>
-	<category id="Heraclea" title="@string/heraclea">
-		<static-wallpaper
-            id="dark_rising"
-            src="@drawable/dark_rising"
-            subtitle1="@string/dark_rising_desc"
-            subtitle2="@string/heraclea_rising_attribution"
-            title="@string/dark_rising" />
-		<static-wallpaper
-            id="rise_and_light"
-            src="@drawable/rise_and_light"
-            subtitle1="@string/rise_and_light_desc"
-            subtitle2="@string/heraclea_rising_attribution"
-            title="@string/rise_and_light" />
-		<static-wallpaper
-            id="pitch_black_remix"
-            src="@drawable/pitch_black_remix"
-            subtitle1="@string/pitch_black_remix_desc"
-            subtitle2="@string/heraclea_rising_attribution"
-            title="@string/pitch_black_remix" />
-		<static-wallpaper
-            id="purple_remix"
-            src="@drawable/purple_remix"
-            subtitle1="@string/purple_remix_desc"
-            subtitle2="@string/heraclea_rising_attribution"
-            title="@string/purple_remix" />
 	</category>
 	<category id="Nothing 2a" title="@string/nothing2a">
 		<static-wallpaper
@@ -644,33 +526,6 @@
             src="@drawable/premium_rose_light"
             title="@string/premium_rose_light_title" />
     </category>
-
-    <category id="Community_Wallpapers" title="@string/community_wallpapers">
-        <static-wallpaper
-            id="community_wallpaper1"
-            src="@drawable/community_wallpaper1"
-            title="@string/community_wallpaper1_title" />
-        <static-wallpaper
-            id="community_wallpaper2"
-            src="@drawable/community_wallpaper2"
-            title="@string/community_wallpaper2_title" />
-        <static-wallpaper
-            id="community_wallpaper3"
-            src="@drawable/community_wallpaper3"
-            title="@string/community_wallpaper3_title" />
-        <static-wallaper
-            id="community_wallpaper4"
-            src="@drawable/community_wallpaper4"
-            title="@string/community_wallpaper4_title" />
-        <static-wallpaper
-            id="community_wallpaper5"
-            src="@drawable/community_wallpaper5"
-            title="@string/community_wallpaper5_title" />
-        <static-wallpaper
-            id="community_wallpaper6"
-            src="@drawable/community_wallpaper6"
-            title="@string/community_wallpaper6_title" />
-    </category>
     
     <category id="cmf_wallpapers" title="@string/cmf_wallpapers">
         <static-wallpaper
@@ -689,54 +544,6 @@
             id="cmf_wallpaper4"
             src="@drawable/cmf_wall_4"
             title="@string/cmf_wallpaper4_title" />
-    </category>
-    
-    <category id="kailash_walls" title="@string/kailash_walls">
-        <static-wallpaper
-            id="kailash_wall_1"
-            src="@drawable/kailash_1"
-            title="@string/kailash_wall_1_title"
-            subtitle1="@string/kailash_rising_subtitle"
-            subtitle2="@string/kailash_rising_attribution"
-             />
-        <static-wallpaper
-            id="kailash_wall_2"
-            src="@drawable/kailash_2"
-            title="@string/kailash_wall_2_title"
-            subtitle1="@string/kailash_rising_subtitle"
-            subtitle2="@string/kailash_rising_attribution"
-             />
-        <static-wallpaper
-            id="kailash_wall_3"
-            src="@drawable/kailash_3"
-            title="@string/kailash_wall_3_title"
-            subtitle1="@string/kailash_rising_subtitle"
-            subtitle2="@string/kailash_rising_attribution"
-             />
-    </category>
-    
-    <category id="rising_x_wukong" title="@string/rising_x_wukong">
-        <static-wallpaper
-            id="rising_x_wukong_ascend"
-            src="@drawable/rising_x_wukong_ascend"
-            title="@string/rising_x_wukong_ascend_title"
-            subtitle1="@string/rising_x_wukong_subtitle"
-            subtitle2="@string/rising_x_wukong_attribution"
-             />
-        <static-wallpaper
-            id="rising_x_wukong_v1"
-            src="@drawable/rising_x_wukong_v1"
-            title="@string/rising_x_wukong_v1_title"
-            subtitle1="@string/rising_x_wukong_subtitle"
-            subtitle2="@string/rising_x_wukong_attribution"
-             />
-        <static-wallpaper
-            id="rising_x_wukong_v2"
-            src="@drawable/rising_x_wukong_v2"
-            title="@string/rising_x_wukong_v2_title"
-            subtitle1="@string/rising_x_wukong_subtitle"
-            subtitle2="@string/rising_x_wukong_attribution"
-             />
     </category>
     
     <category id="n2ap_community_edition" title="@string/n2ap_community_edition_title">

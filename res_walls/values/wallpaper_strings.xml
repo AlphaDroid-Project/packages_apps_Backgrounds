@@ -65,39 +65,6 @@
     <string name="wallpaper9subtitle">Collection of wallpapers from nothingOS 1.5</string>
     <string name="wallpaper10title">Nothing Shapes (white)</string>
     <string name="wallpaper10subtitle">Collection of wallpapers from nothingOS 1.5</string>
-
-    <!-- risingOS Wallpapers -->
-    <string name="rice_title">Rising Beauty</string>
-    <string name="macapuno_title">Rise and Bloom</string>
-    <string name="macapuno_description">Default official wallpaper for Macapuno release.</string>
-    <string name="macapuno_attribution">Photo by Aedrian</string>
-    <string name="nata_de_coco_title">Delicate Flowers Of Yellow Trumpetbush Shrub</string>
-    <string name="nata_de_coco_description">Default official wallpaper for nata de coco release.</string>
-    <string name="nata_de_coco_attribution">Photo by Mwabonje</string>	
-    <string name="obattu_title">Close Up Of A Red Siamese Fighting Fish</string>
-    <string name="obattu_description">Default official wallpaper for obattu release.</string>
-    <string name="obattu_attribution">Photo by Chevanon Photography</string>
-    <string name="paella_title">Blossoming Orange Flower On Meadow</string>
-    <string name="paella_description">Default official wallpaper for paella release.</string>
-    <string name="paella_attribution">Photo by Maddy Freddie</string>
-    
-    <!-- Midjourney x notayan99 -->
-    <string name="midjourneyxayan_title">Midjourney x notayan99</string>
-    <string name="paella1_title">Blazing Paella</string>
-    <string name="paella1_description">Official wallpapers for paella release.</string>
-    <string name="paella1_attribution">Photo by Midjourney and notayan99</string>
-    <string name="paella2_title">Rice and slice</string>
-    <string name="paella2_description">Official wallpapers for paella release.</string>
-    <string name="paella2_attribution">Photo by Midjourney and notayan99</string>
-    
-    <!-- Wallfever x risingOS -->
-    <string name="wallfever_collab_title">Wallfever collaboration</string>
-    <string name="wf_description">RisingOS Official wallpapers for version CASPIAN.</string>
-    <string name="wf_attribution">Created by AmaanCG</string>
-    <string name="wf_chocolate_creme_title">Chocolate Creme</string>
-    <string name="wf_orange_oracle_title">Orange Oracle</string>
-    <string name="wf_pink_plush_title">Pink Plush</string>
-    <string name="wf_yellow_yard_title">Yellow Yard</string>
     
     <string name="nothing_2">Nothing 2.0</string>
     <string name="nt_wallpaper_emyl_dark_subtitle">An atmospheric theme featuring dusky shades, inspired by twilight skies.</string>
@@ -174,15 +141,6 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="black_licorice_light">Light Black Licorice</string>
     <string name="porcelain_dark">Dark Porcelain</string>
     <string name="porcelain_light">Light Porcelain</string>
-
-    <!-- RisingOS 2.0 -->
-    <string name="risingtwo_title">RisingOS 2.0</string>
-    <string name="risingtwo_v1">Rising Two v1</string>
-    <string name="risingtwo_v2">Rising Two v2</string>
-    <string name="risingtwo_v3">Rising Two v3</string>
-    <string name="risingtwo_v4">Rising Two v4</string>
-    <string name="risingtwo_v5">Rising Two v5</string>
-    <string name="risingtwo_v6">Rising Two v6</string>
     
     <string name="pixel8a_minerals_title">Pixel 8a - Minerals</string>
     <string name="p8-emerald-dark">Dark Emerald Titanite</string>
@@ -194,18 +152,6 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="p8-porcelain-light">Light Emerald Porcelain</string>
     <string name="p8-porcelain-dark">Light Emerald Porcelain</string>
     <string name="p8_collection_desc">by Andrew Zuckerman</string>
-    
-    <!-- RisingOS 2.0 Official -->
-    <string name="heraclea">Heraclea</string>
-    <string name="dark_rising">Dark Rising</string>
-    <string name="dark_rising_desc">A blend of darkness, materialism and rising...</string>
-    <string name="heraclea_rising_attribution">Created by Not Ayan and Qirkly</string>
-    <string name="rise_and_light">Rise and Light</string>
-    <string name="rise_and_light_desc">The light which one brings when rising</string>
-    <string name="pitch_black_remix">Resurrection?</string>
-    <string name="pitch_black_remix_desc">Feeling old yet?</string>
-    <string name="purple_remix">Purple Remix</string>
-    <string name="purple_remix_desc">Purpleeeee</string>
     
     <!-- Nothing 2a Official Wallpapers -->
     <string name="nothing2a">Nothing 2a</string>
@@ -236,37 +182,12 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="premium_rose_dark_title">Premium Rose Dark</string>
     <string name="premium_rose_light_title">Premium Rose Light</string>
 
-    <!-- Community Wallpapers -->
-    <string name="community_wallpapers">RisingOS Community Wallpapers</string>
-    <string name="community_wallpaper1_title">Community Wallpaper 1</string>
-    <string name="community_wallpaper2_title">Community Wallpaper 2</string>
-    <string name="community_wallpaper3_title">Community Wallpaper 3</string>
-    <string name="community_wallpaper4_title">Community Wallpaper 4</string>
-    <string name="community_wallpaper5_title">Community Wallpaper 5</string>
-    <string name="community_wallpaper6_title">Community Wallpaper 6</string>
-
     <!-- CMF Walls -->
     <string name="cmf_wallpapers">CMF by Nothing Wallpapers</string>
     <string name="cmf_wallpaper1_title">CMF 1</string>
     <string name="cmf_wallpaper2_title">CMF 2</string>
     <string name="cmf_wallpaper3_title">CMF 3</string>
     <string name="cmf_wallpaper4_title">CMF 4</string>
-    
-    <!-- Kailash -->
-    <string name="kailash_walls">RisingOS 4.0 Wallpapers</string>
-    <string name="kailash_wall_1_title">Kailash 1</string>
-    <string name="kailash_wall_2_title">Kailash 2</string>
-    <string name="kailash_wall_3_title">Kailash 3</string>
-    <string name="kailash_rising_subtitle">Kailash Edition Wallpapers</string>
-    <string name="kailash_rising_attribution">Created by Not Ayan</string>
-    
-    <!-- Rising X Wukong -->
-    <string name="rising_x_wukong">RisingOS X Wukong Wallpapers</string>
-    <string name="rising_x_wukong_ascend_title">Ascend</string>
-    <string name="rising_x_wukong_v1_title">Rising X Wukong v1</string>
-    <string name="rising_x_wukong_v2_title">Rising X Wukong v2</string>
-    <string name="rising_x_wukong_subtitle">Rising X Wukong Edition Wallpapers</string>
-    <string name="rising_x_wukong_attribution">Created by Not Ayan</string>
     
     <!-- Nothing 2a Plus Community edition -->
     <string name="n2ap_community_edition_title">Nothing 2a Plus Community edition</string>
