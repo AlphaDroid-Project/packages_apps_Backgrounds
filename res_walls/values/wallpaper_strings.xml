@@ -193,4 +193,9 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="n2ap_community_edition_title">Nothing 2a Plus Community edition</string>
     <string name="n2ap_community_edition_wp_title">Nothing 2a Plus community wallpaper</string>
     <string name="n2ap_community_edition_attribution">by Nothing Tech</string>
+    
+    <!-- Nothing 3a edition -->
+    <string name="n3ap_community_edition_title">Nothing 3a edition</string>
+    <string name="n3ap_community_edition_wp_title">Nothing 3a wallpaper</string>
+    <string name="n3ap_community_edition_attribution">by Nothing Tech</string>
 </resources>

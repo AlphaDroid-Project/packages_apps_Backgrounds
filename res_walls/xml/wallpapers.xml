@@ -584,4 +584,49 @@
             subtitle2="@string/n2ap_community_edition_attribution"
              />
     </category>
+    
+    <category id="n3ap_community_edition" title="@string/n3ap_community_edition_title">
+        <static-wallpaper
+            id="nt_3a_1"
+            src="@drawable/nt_3a_1"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_2"
+            src="@drawable/nt_3a_2"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_3"
+            src="@drawable/nt_3a_3"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_4"
+            src="@drawable/nt_3a_4"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_5"
+            src="@drawable/nt_3a_5"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_6"
+            src="@drawable/nt_3a_6"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+        <static-wallpaper
+            id="nt_3a_7"
+            src="@drawable/nt_3a_7"
+            title="@string/n3ap_community_edition_wp_title"
+            subtitle2="@string/n3ap_community_edition_attribution"
+             />
+    </category>
 </resources>
