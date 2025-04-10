@@ -629,4 +629,19 @@
             subtitle2="@string/n3ap_community_edition_attribution"
              />
     </category>
+    
+    <category id="ax_walls" title="@string/ax_walls_title">
+        <static-wallpaper
+            id="ax_1"
+            src="@drawable/ax_1"
+            title="@string/ax_walls_title"
+            subtitle2="@string/ax_walls_attribution_1"
+             />
+        <static-wallpaper
+            id="ax_1_3"
+            src="@drawable/ax_1_3"
+            title="@string/ax_walls_title"
+            subtitle2="@string/ax_walls_attribution_2"
+             />
+    </category>
 </resources>

@@ -198,4 +198,9 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="n3ap_community_edition_title">Nothing 3a edition</string>
     <string name="n3ap_community_edition_wp_title">Nothing 3a wallpaper</string>
     <string name="n3ap_community_edition_attribution">by Nothing Tech</string>
+    
+    <!-- Axion -->
+    <string name="ax_walls_title">Axion wallpapers</string>
+    <string name="ax_walls_attribution_1">Photo by Caleb George</string>
+    <string name="ax_walls_attribution_2">Photo by Allec Gomes</string>
 </resources>
