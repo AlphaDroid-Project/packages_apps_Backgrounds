@@ -25,9 +25,10 @@ def generate_smallvariants(resource):
 
         # Save the wallpaper with 1/2 size to wallpaper_small_path
         with Image.open(os.path.join(wallpapers_path, wallpaper)) as img:
-            size = int(img.width / 2), int(img.height / 2)
+            # size = int(img.width / 2), int(img.height / 2)
 
-            img_small = img.resize(size, Image.Resampling.LANCZOS)
+            # img_small = img.resize(size, Image.Resampling.LANCZOS)
+            img_small = img
             img_small.save(wallpaper_small_path, "PNG")
 
 def clean(wallpapers_path):
