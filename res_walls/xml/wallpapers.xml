@@ -644,4 +644,64 @@
             subtitle2="@string/ax_walls_attribution_2"
              />
     </category>
+
+    <category id="axion_walls" title="@string/axion_walls_title">
+        <static-wallpaper
+            id="axion_black"
+            src="@drawable/axion_black"
+            title="@string/axion_black"
+            subtitle2="@string/axion_black_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_electric_purple"
+            src="@drawable/axion_electric_purple"
+            title="@string/axion_electric_purple"
+            subtitle2="@string/axion_electric_purple_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_emerald"
+            src="@drawable/axion_emerald"
+            title="@string/axion_emerald"
+            subtitle2="@string/axion_emerald_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_gold"
+            src="@drawable/axion_gold"
+            title="@string/axion_gold"
+            subtitle2="@string/axion_gold_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_golden_brown"
+            src="@drawable/axion_golden_brown"
+            title="@string/axion_golden_brown"
+            subtitle2="@string/axion_golden_brown_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_orange"
+            src="@drawable/axion_orange"
+            title="@string/axion_orange"
+            subtitle2="@string/axion_orange_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_yellow"
+            src="@drawable/axion_yellow"
+            title="@string/axion_yellow"
+            subtitle2="@string/axion_yellow_wallpaper"
+             />
+    </category>
+
+    <category id="nothing_os_4_0_walls" title="@string/nothing_os_4_0_walls_title">
+        <static-wallpaper
+            id="nothing_os_4.0_blue"
+            src="@drawable/nothing_os_4.0_blue"
+            title="@string/nothing_os_4_0_blue"
+            subtitle2="@string/nothing_os_4_0_blue_wallpaper"
+             />
+        <static-wallpaper
+            id="nothing_os_4.0_green"
+            src="@drawable/nothing_os_4.0_green"
+            title="@string/nothing_os_4_0_green"
+            subtitle2="@string/nothing_os_4_0_green_wallpaper"
+             />
+    </category>
 </resources>

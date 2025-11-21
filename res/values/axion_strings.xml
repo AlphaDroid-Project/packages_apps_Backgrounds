@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="axion_walls_title">Axion</string>
+    <string name="axion_black">Axion Black</string>
+    <string name="axion_black_wallpaper">Axion Black Wallpaper</string>
+    <string name="axion_electric_purple">Axion Electric Purple</string>
+    <string name="axion_electric_purple_wallpaper">Axion Electric Purple Wallpaper</string>
+    <string name="axion_emerald">Axion Emerald</string>
+    <string name="axion_emerald_wallpaper">Axion Emerald Wallpaper</string>
+    <string name="axion_gold">Axion Gold</string>
+    <string name="axion_gold_wallpaper">Axion Gold Wallpaper</string>
+    <string name="axion_golden_brown">Axion Golden Brown</string>
+    <string name="axion_golden_brown_wallpaper">Axion Golden Brown Wallpaper</string>
+    <string name="axion_orange">Axion Orange</string>
+    <string name="axion_orange_wallpaper">Axion Orange Wallpaper</string>
+    <string name="axion_yellow">Axion Yellow</string>
+    <string name="axion_yellow_wallpaper">Axion Yellow Wallpaper</string>
+
+    <string name="nothing_os_4_0_walls_title">Nothing Os 4.0</string>
+    <string name="nothing_os_4_0_blue">Nothing Os 4.0 Blue</string>
+    <string name="nothing_os_4_0_blue_wallpaper">Nothing Os 4.0 Blue Wallpaper</string>
+    <string name="nothing_os_4_0_green">Nothing Os 4.0 Green</string>
+    <string name="nothing_os_4_0_green_wallpaper">Nothing Os 4.0 Green Wallpaper</string>
+</resources>
