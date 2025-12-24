@@ -743,4 +743,55 @@
             subtitle2="@string/community_2x3_6_wallpaper"
              />
     </category>
+
+    <category id="axion_walls" title="@string/axion_walls_title">
+        <static-wallpaper
+            id="axion_remix1"
+            src="@drawable/axion_remix1"
+            title="@string/axion_remix1"
+            subtitle2="@string/axion_remix1_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix2"
+            src="@drawable/axion_remix2"
+            title="@string/axion_remix2"
+            subtitle2="@string/axion_remix2_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix3"
+            src="@drawable/axion_remix3"
+            title="@string/axion_remix3"
+            subtitle2="@string/axion_remix3_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix4"
+            src="@drawable/axion_remix4"
+            title="@string/axion_remix4"
+            subtitle2="@string/axion_remix4_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix5"
+            src="@drawable/axion_remix5"
+            title="@string/axion_remix5"
+            subtitle2="@string/axion_remix5_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix6"
+            src="@drawable/axion_remix6"
+            title="@string/axion_remix6"
+            subtitle2="@string/axion_remix6_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix7"
+            src="@drawable/axion_remix7"
+            title="@string/axion_remix7"
+            subtitle2="@string/axion_remix7_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_remix8"
+            src="@drawable/axion_remix8"
+            title="@string/axion_remix8"
+            subtitle2="@string/axion_remix8_wallpaper"
+             />
+    </category>
 </resources>
