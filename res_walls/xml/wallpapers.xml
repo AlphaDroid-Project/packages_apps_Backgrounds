@@ -794,4 +794,49 @@
             subtitle2="@string/axion_remix8_wallpaper"
              />
     </category>
+
+    <category id="community_2x3_2_walls" title="@string/community_2x3_2_walls_title">
+        <static-wallpaper
+            id="community_2x3_2_1"
+            src="@drawable/community_2x3_2_1"
+            title="@string/community_2x3_2_1"
+            subtitle2="@string/community_2x3_2_1_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_2"
+            src="@drawable/community_2x3_2_2"
+            title="@string/community_2x3_2_2"
+            subtitle2="@string/community_2x3_2_2_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_3"
+            src="@drawable/community_2x3_2_3"
+            title="@string/community_2x3_2_3"
+            subtitle2="@string/community_2x3_2_3_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_4"
+            src="@drawable/community_2x3_2_4"
+            title="@string/community_2x3_2_4"
+            subtitle2="@string/community_2x3_2_4_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_5"
+            src="@drawable/community_2x3_2_5"
+            title="@string/community_2x3_2_5"
+            subtitle2="@string/community_2x3_2_5_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_6"
+            src="@drawable/community_2x3_2_6"
+            title="@string/community_2x3_2_6"
+            subtitle2="@string/community_2x3_2_6_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2_7"
+            src="@drawable/community_2x3_2_7"
+            title="@string/community_2x3_2_7"
+            subtitle2="@string/community_2x3_2_7_wallpaper"
+             />
+    </category>
 </resources>
