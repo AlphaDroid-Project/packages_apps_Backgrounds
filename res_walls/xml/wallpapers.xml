@@ -704,4 +704,43 @@
             subtitle2="@string/nothing_os_4_0_green_wallpaper"
              />
     </category>
+
+    <category id="community_2x3_walls" title="@string/community_2x3_walls_title">
+        <static-wallpaper
+            id="community_2x3_1"
+            src="@drawable/community_2x3_1"
+            title="@string/community_2x3_1"
+            subtitle2="@string/community_2x3_1_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_2"
+            src="@drawable/community_2x3_2"
+            title="@string/community_2x3_2"
+            subtitle2="@string/community_2x3_2_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_3"
+            src="@drawable/community_2x3_3"
+            title="@string/community_2x3_3"
+            subtitle2="@string/community_2x3_3_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_4"
+            src="@drawable/community_2x3_4"
+            title="@string/community_2x3_4"
+            subtitle2="@string/community_2x3_4_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_5"
+            src="@drawable/community_2x3_5"
+            title="@string/community_2x3_5"
+            subtitle2="@string/community_2x3_5_wallpaper"
+             />
+        <static-wallpaper
+            id="community_2x3_6"
+            src="@drawable/community_2x3_6"
+            title="@string/community_2x3_6"
+            subtitle2="@string/community_2x3_6_wallpaper"
+             />
+    </category>
 </resources>
