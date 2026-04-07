@@ -68,4 +68,10 @@
     <string name="community_2x3_2_6_wallpaper">Community 2x3 2 6 Wallpaper</string>
     <string name="community_2x3_2_7">Community 2x3 2 7</string>
     <string name="community_2x3_2_7_wallpaper">Community 2x3 2 7 Wallpaper</string>
+
+    <string name="axion_walls_title">Axion</string>
+    <string name="axion_twofive">Axion Twofive</string>
+    <string name="axion_twofive_wallpaper">Axion Twofive Wallpaper</string>
+    <string name="axion_twofive_logo">Axion Twofive Logo</string>
+    <string name="axion_twofive_logo_wallpaper">Axion Twofive Logo Wallpaper</string>
 </resources>

@@ -839,4 +839,19 @@
             subtitle2="@string/community_2x3_2_7_wallpaper"
              />
     </category>
+
+    <category id="axion_walls" title="@string/axion_walls_title">
+        <static-wallpaper
+            id="axion_twofive"
+            src="@drawable/axion_twofive"
+            title="@string/axion_twofive"
+            subtitle2="@string/axion_twofive_wallpaper"
+             />
+        <static-wallpaper
+            id="axion_twofive_logo"
+            src="@drawable/axion_twofive_logo"
+            title="@string/axion_twofive_logo"
+            subtitle2="@string/axion_twofive_logo_wallpaper"
+             />
+    </category>
 </resources>
