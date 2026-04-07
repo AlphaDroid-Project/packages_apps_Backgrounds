@@ -3,6 +3,7 @@
 import os
 import subprocess
 import sys
+import argparse
 from os.path import commonprefix
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -241,12 +242,43 @@ def insert_xml_entries(xml_file, new_entries):
     
     print("xml entries added.")
 
+def get_existing_string_names(strings_file):
+    path = Path(strings_file)
+    if not path.exists():
+        return set()
+    with open(strings_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    return set(re.findall(r'<string\s+name="([^"]+)"', content))
+
+def filter_duplicate_strings(string_resources, existing_names):
+    filtered = []
+    skipped = 0
+    for res in string_resources:
+        m = re.search(r'name="([^"]+)"', res)
+        if m and m.group(1) in existing_names:
+            skipped += 1
+            continue
+        filtered.append(res)
+        if m:
+            existing_names.add(m.group(1))
+    if skipped:
+        print(f"skipped {skipped} duplicate string(s) already in strings file")
+    return filtered
+
 def insert_string_resources(strings_file, string_resources):
     strings_path = Path(strings_file)
-    
+
+    string_resources = filter_duplicate_strings(
+        string_resources, get_existing_string_names(strings_file)
+    )
+
+    if not string_resources:
+        print("no new strings to add.")
+        return
+
     if strings_path.exists():
         print(f"appending to existing {strings_file}")
-        
+
         with open(strings_file, 'r', encoding='utf-8') as f:
             content = f.read()
         
@@ -281,9 +313,190 @@ def insert_string_resources(strings_file, string_resources):
     
     print(f"string resources added to {strings_file}")
 
+def get_used_string_names_in_xml(xml_file):
+    if not Path(xml_file).exists():
+        return set()
+    with open(xml_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    return set(re.findall(r'@string/([A-Za-z0-9_]+)', content))
+
+def get_referenced_drawables_in_xml(xml_file):
+    return get_existing_drawables_in_xml(xml_file)
+
+def merge_duplicate_categories(xml_file):
+    if not Path(xml_file).exists():
+        return
+
+    with open(xml_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    pattern = re.compile(
+        r'[ \t]*<category\s+id="([^"]+)"[^>]*>(.*?)</category>\n?',
+        re.DOTALL,
+    )
+
+    matches = list(pattern.finditer(content))
+    if not matches:
+        return
+
+    by_id = {}
+    for m in matches:
+        by_id.setdefault(m.group(1), []).append(m)
+
+    dups = {cid: ms for cid, ms in by_id.items() if len(ms) > 1}
+    if not dups:
+        return
+
+    print(f"\nfound {len(dups)} duplicate categor(ies) to merge:")
+    for cid, ms in dups.items():
+        total = sum(len(re.findall(r'<static-wallpaper\b', m.group(2))) for m in ms)
+        print(f"  - {cid}: {len(ms)} blocks, {total} total wallpapers")
+
+    if input("\nmerge duplicate categories? (y/n): ").strip().lower() != 'y':
+        return
+
+    new_content = content
+    for cid, ms in dups.items():
+        first = ms[0]
+        seen_ids = set(re.findall(r'<static-wallpaper\s+id="([^"]+)"', first.group(2)))
+        merged_inner = first.group(2).rstrip()
+
+        for extra in ms[1:]:
+            for sw in re.finditer(
+                r'\s*<static-wallpaper\b[^>]*?id="([^"]+)"[^>]*?(?:/>|>.*?</static-wallpaper>)',
+                extra.group(2),
+                re.DOTALL,
+            ):
+                wid = sw.group(1)
+                if wid in seen_ids:
+                    continue
+                seen_ids.add(wid)
+                merged_inner += "\n" + sw.group(0).lstrip('\n')
+
+        merged_block = (
+            re.match(r'[ \t]*<category\s+id="[^"]+"[^>]*>', first.group(0)).group(0)
+            + merged_inner
+            + "\n    </category>\n"
+        )
+
+        new_content = new_content.replace(first.group(0), merged_block, 1)
+        for extra in ms[1:]:
+            new_content = new_content.replace(extra.group(0), "", 1)
+
+    with open(xml_file, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+
+    print(f"merged {len(dups)} duplicate categor(ies).")
+
+def repair():
+    print("repair mode\n")
+
+    issues = 0
+    fixed = 0
+
+    strings_path = Path(STRINGS_FILE)
+    if not strings_path.exists():
+        print(f"strings file missing: {STRINGS_FILE}")
+        sys.exit(1)
+
+    with open(STRINGS_FILE, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    seen = {}
+    dup_lines = []
+    new_lines = []
+    for line in content.splitlines():
+        m = re.search(r'<string\s+name="([^"]+)"', line)
+        if m:
+            name = m.group(1)
+            if name in seen:
+                dup_lines.append(name)
+                issues += 1
+                fixed += 1
+                continue
+            seen[name] = True
+        new_lines.append(line)
+
+    if dup_lines:
+        print(f"removing {len(dup_lines)} duplicate string(s):")
+        for n in dup_lines:
+            print(f"  - {n}")
+        with open(STRINGS_FILE, 'w', encoding='utf-8') as f:
+            f.write("\n".join(new_lines) + ("\n" if content.endswith("\n") else ""))
+
+    merge_duplicate_categories(XML_FILE)
+
+    drawables_in_xml = get_referenced_drawables_in_xml(XML_FILE)
+    webp_files = set(get_all_webp_files())
+
+    missing_drawables = drawables_in_xml - webp_files
+    if missing_drawables:
+        issues += len(missing_drawables)
+        print(f"\n{len(missing_drawables)} drawable(s) referenced in xml but missing on disk:")
+        for d in sorted(missing_drawables):
+            print(f"  - {d}")
+
+    orphan_drawables = webp_files - drawables_in_xml
+    if orphan_drawables:
+        print(f"\n{len(orphan_drawables)} drawable(s) on disk not referenced in xml:")
+        for d in sorted(orphan_drawables):
+            print(f"  - {d}")
+
+    used_strings = get_used_string_names_in_xml(XML_FILE)
+    defined_strings = set(seen.keys())
+
+    wallpaper_string_pattern = re.compile(r'^[a-z0-9_]+(_wallpaper)?$|_walls_title$')
+    candidate_orphans = set()
+    for name in defined_strings:
+        if name in used_strings:
+            continue
+        if name.endswith('_walls_title') or name.endswith('_wallpaper'):
+            candidate_orphans.add(name)
+            continue
+        if name + '_wallpaper' in defined_strings and name + '_wallpaper' not in used_strings:
+            candidate_orphans.add(name)
+
+    real_orphans = {n for n in candidate_orphans if n not in used_strings}
+    if real_orphans:
+        issues += len(real_orphans)
+        print(f"\n{len(real_orphans)} wallpaper string(s) defined but not referenced by wallpapers.xml:")
+        for n in sorted(real_orphans):
+            print(f"  - {n}")
+        if input("\nremove orphan strings? (y/n): ").strip().lower() == 'y':
+            with open(STRINGS_FILE, 'r', encoding='utf-8') as f:
+                content = f.read()
+            kept = []
+            removed = 0
+            for line in content.splitlines():
+                m = re.search(r'<string\s+name="([^"]+)"', line)
+                if m and m.group(1) in real_orphans:
+                    removed += 1
+                    continue
+                kept.append(line)
+            with open(STRINGS_FILE, 'w', encoding='utf-8') as f:
+                f.write("\n".join(kept) + "\n")
+            fixed += removed
+            print(f"removed {removed} orphan string(s).")
+
+    print(f"\nrepair done. issues found: {issues}, fixed: {fixed}")
+
 def main():
+    parser = argparse.ArgumentParser(description="backgrounds regen script")
+    parser.add_argument(
+        "mode",
+        nargs="?",
+        default="add",
+        choices=["add", "repair"],
+        help="add: default flow, repair: fix duplicate/orphan strings",
+    )
+    args = parser.parse_args()
+
+    if args.mode == "repair":
+        repair()
+        return
+
     print("backgrounds regen script\n")
-    
+
     files_to_convert = find_files_to_convert()
     newly_converted = convert_to_webp(files_to_convert)
     
