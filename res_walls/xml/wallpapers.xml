@@ -3,463 +3,566 @@
     Copyright (C) 2021 Sourajit Karmakar
     Copyright (C) 2020-2022 Vaisakh Murali
     Copyright (C) 2023-2024 The risingOS Android Project
+    Copyright (C) 2026 AlphaDroid
 
     SPDX-License-Identifer: Apache-2.0
 -->
 <resources>
-	<category id="Feathers" title="@string/feathers_title">
-		<static-wallpaper
-	    id="p10_snow_dark"
-	    src="@drawable/p10-snow-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/cockatoo_title" />
-		<static-wallpaper
-	    id="p10_snow_light"
-	    src="@drawable/p10-snow-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/king_title" />
-		<static-wallpaper
-	    id="p10_obsidian_dark"
-	    src="@drawable/p10-obsidian-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/pied_title" />
-		<static-wallpaper
-	    id="p10_obsidian_light"
-	    src="@drawable/p10-obsidian-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/pied_title" />
-		<static-wallpaper
-	    id="p10_lemongrass_dark"
-	    src="@drawable/p10-lemongrass-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/greenwinged_title" />
-		<static-wallpaper
-	    id="p10_lemongrass_light"
-	    src="@drawable/p10-lemongrass-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/ringnecked_title" />
-		<static-wallpaper
-	    id="c10_snow_dark"
-	    src="@drawable/c10-snow-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/azure_title" />
-		<static-wallpaper
-	    id="c10_snow_light"
-	    src="@drawable/c10-snow-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/azure_title" />
-		<static-wallpaper
-	    id="c10_obsidian_dark"
-	    src="@drawable/c10-obsidian-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/pied_title" />
-		<static-wallpaper
-	    id="c10_obsidian_light"
-	    src="@drawable/c10-obsidian-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/pied_title" />
-		<static-wallpaper
-	    id="c10_haze_dark"
-	    src="@drawable/c10-haze-dark"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/seagull_title" />
-		<static-wallpaper
-	    id="c10_haze_light"
-	    src="@drawable/c10-haze-light"
-	    subtitle1="@string/feathers_description"
-	    subtitle2="@string/feathers_attribution"
-	    title="@string/blackswan_title" />
-		<static-wallpaper
-	    id="licorice_dark"
-	    src="@drawable/licorice_dark"
-	    subtitle1="@string/licorice_dark_description"
-	    title="@string/licorice_dark" />
-		<static-wallpaper
-	    id="porcelain_white"
-	    src="@drawable/porcelain_white"
-	    subtitle1="@string/porcelain_white_description"
-	    title="@string/porcelain_white" />
-	</category>
-	<category id="Curated Culture" title="@string/curated_title">
-		<static-wallpaper
-	    id="googlewp_curated_one"
-	    src="@drawable/googlewp_curated_one"
-	    subtitle1="@string/daydream_description"
-	    title="@string/daydream_title" />
-		<static-wallpaper
-	    id="googlewp_curated_two"
-	    src="@drawable/googlewp_curated_two"
-	    subtitle1="@string/room_description"
-	    title="@string/room_title" />
-		<static-wallpaper
-	    id="googlewp_curated_three"
-	    src="@drawable/googlewp_curated_three"
-	    subtitle1="@string/peace_description"
-	    title="@string/peace_title" />
-	</category>
-	<category id="Bloom" title="@string/bloom_title">
-		<static-wallpaper
-	    id="hellebores"
-	    src="@drawable/hellebores"
-	    subtitle1="@string/bloom_description"
-	    subtitle2="@string/bloom_attribution"
-	    title="@string/hellebores_title" />
-		<static-wallpaper
-	    id="hellebores_light"
-	    src="@drawable/hellebores-light"
-	    subtitle1="@string/bloom_description"
-	    subtitle2="@string/bloom_attribution"
-	    title="@string/hellebores_title" />
-		<static-wallpaper
-	    id="persian"
-	    src="@drawable/persian"
-	    subtitle1="@string/bloom_description"
-	    subtitle2="@string/bloom_attribution"
-	    title="@string/persian_title" />
-		<static-wallpaper
-	    id="persian_light"
-	    src="@drawable/persian-light"
-	    subtitle1="@string/bloom_description"
-	    subtitle2="@string/bloom_attribution"
-	    title="@string/persian_title" />
-	</category>
-	<category id="Community Lens" title="@string/community_title">
-		<static-wallpaper
+    <category id="alpha_walls" title="@string/alpha_walls_title">
+        <static-wallpaper
+            id="alpha_nexus_prime"
+            src="@drawable/alpha_nexus_prime"
+            title="@string/alpha_nexus_prime_title" />
+        <static-wallpaper
+            id="alpha_quantum_flux"
+            src="@drawable/alpha_quantum_flux"
+            title="@string/alpha_quantum_flux_title" />
+        <static-wallpaper
+            id="alpha_stellar_drift"
+            src="@drawable/alpha_stellar_drift"
+            title="@string/alpha_stellar_drift_title" />
+        <static-wallpaper
+            id="alpha_cyber_bloom"
+            src="@drawable/alpha_cyber_bloom"
+            title="@string/alpha_cyber_bloom_title" />
+        <static-wallpaper
+            id="alpha_nebula_haze"
+            src="@drawable/alpha_nebula_haze"
+            title="@string/alpha_nebula_haze_title" />
+        <static-wallpaper
+            id="alpha_binary_dawn"
+            src="@drawable/alpha_binary_dawn"
+            title="@string/alpha_binary_dawn_title" />
+        <static-wallpaper
+            id="alpha_omega_wave"
+            src="@drawable/alpha_omega_wave"
+            title="@string/alpha_omega_wave_title" />
+        <static-wallpaper
+            id="alpha_stardust_pulse"
+            src="@drawable/alpha_stardust_pulse"
+            title="@string/alpha_stardust_pulse_title" />
+        <static-wallpaper
+            id="alpha_cosmic_echo"
+            src="@drawable/alpha_cosmic_echo"
+            title="@string/alpha_cosmic_echo_title" />
+        <static-wallpaper
+            id="alpha_pixel_storm"
+            src="@drawable/alpha_pixel_storm"
+            title="@string/alpha_pixel_storm_title" />
+        <static-wallpaper
+            id="alpha_void_horizon"
+            src="@drawable/alpha_void_horizon"
+            title="@string/alpha_void_horizon_title" />
+        <static-wallpaper
+            id="alpha_aurora_core"
+            src="@drawable/alpha_aurora_core"
+            title="@string/alpha_aurora_core_title" />
+        <static-wallpaper
+            id="alpha_synthwave_drift"
+            src="@drawable/alpha_synthwave_drift"
+            title="@string/alpha_synthwave_drift_title" />
+        <static-wallpaper
+            id="alpha_prism_spark"
+            src="@drawable/alpha_prism_spark"
+            title="@string/alpha_prism_spark_title" />
+        <static-wallpaper
+            id="alpha_galactic_glow"
+            src="@drawable/alpha_galactic_glow"
+            title="@string/alpha_galactic_glow_title" />
+        <static-wallpaper
+            id="alpha_eclipse_shadow"
+            src="@drawable/alpha_eclipse_shadow"
+            title="@string/alpha_eclipse_shadow_title" />
+        <static-wallpaper
+            id="alpha_plasma_surge"
+            src="@drawable/alpha_plasma_surge"
+            title="@string/alpha_plasma_surge_title" />
+        <static-wallpaper
+            id="alpha_digital_dawn"
+            src="@drawable/alpha_digital_dawn"
+            title="@string/alpha_digital_dawn_title" />
+        <static-wallpaper
+            id="alpha_nova_burst"
+            src="@drawable/alpha_nova_burst"
+            title="@string/alpha_nova_burst_title" />
+    </category>
+
+    <category id="neon_droid" title="@string/neon_droid_title">
+        <static-wallpaper
+            id="alpha_neon_droid_blue"
+            src="@drawable/alpha_neon_droid_blue"
+            title="@string/alpha_neon_droid_blue_title" />
+        <static-wallpaper
+            id="alpha_neon_droid_red"
+            src="@drawable/alpha_neon_droid_red"
+            title="@string/alpha_neon_droid_red_title" />
+        <static-wallpaper
+            id="alpha_neon_droid_orange"
+            src="@drawable/alpha_neon_droid_orange"
+            title="@string/alpha_neon_droid_orange_title" />
+        <static-wallpaper
+            id="alpha_neon_droid_green"
+            src="@drawable/alpha_neon_droid_green"
+            title="@string/alpha_neon_droid_green_title" />
+        <static-wallpaper
+            id="alpha_neon_droid_purple"
+            src="@drawable/alpha_neon_droid_purple"
+            title="@string/alpha_neon_droid_purple_title" />
+    </category>
+
+    <category id="Feathers" title="@string/feathers_title">
+        <static-wallpaper
+            id="p10_snow_dark"
+            src="@drawable/p10-snow-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/cockatoo_title" />
+        <static-wallpaper
+            id="p10_snow_light"
+            src="@drawable/p10-snow-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/king_title" />
+        <static-wallpaper
+            id="p10_obsidian_dark"
+            src="@drawable/p10-obsidian-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/pied_title" />
+        <static-wallpaper
+            id="p10_obsidian_light"
+            src="@drawable/p10-obsidian-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/pied_title" />
+        <static-wallpaper
+            id="p10_lemongrass_dark"
+            src="@drawable/p10-lemongrass-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/greenwinged_title" />
+        <static-wallpaper
+            id="p10_lemongrass_light"
+            src="@drawable/p10-lemongrass-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/ringnecked_title" />
+        <static-wallpaper
+            id="c10_snow_dark"
+            src="@drawable/c10-snow-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/azure_title" />
+        <static-wallpaper
+            id="c10_snow_light"
+            src="@drawable/c10-snow-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/azure_title" />
+        <static-wallpaper
+            id="c10_obsidian_dark"
+            src="@drawable/c10-obsidian-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/pied_title" />
+        <static-wallpaper
+            id="c10_obsidian_light"
+            src="@drawable/c10-obsidian-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/pied_title" />
+        <static-wallpaper
+            id="c10_haze_dark"
+            src="@drawable/c10-haze-dark"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/seagull_title" />
+        <static-wallpaper
+            id="c10_haze_light"
+            src="@drawable/c10-haze-light"
+            subtitle1="@string/feathers_description"
+            subtitle2="@string/feathers_attribution"
+            title="@string/blackswan_title" />
+        <static-wallpaper
+            id="licorice_dark"
+            src="@drawable/licorice_dark"
+            subtitle1="@string/licorice_dark_description"
+            title="@string/licorice_dark" />
+        <static-wallpaper
+            id="porcelain_white"
+            src="@drawable/porcelain_white"
+            subtitle1="@string/porcelain_white_description"
+            title="@string/porcelain_white" />
+    </category>
+    <category id="Curated Culture" title="@string/curated_title">
+        <static-wallpaper
+            id="googlewp_curated_one"
+            src="@drawable/googlewp_curated_one"
+            subtitle1="@string/daydream_description"
+            title="@string/daydream_title" />
+        <static-wallpaper
+            id="googlewp_curated_two"
+            src="@drawable/googlewp_curated_two"
+            subtitle1="@string/room_description"
+            title="@string/room_title" />
+        <static-wallpaper
+            id="googlewp_curated_three"
+            src="@drawable/googlewp_curated_three"
+            subtitle1="@string/peace_description"
+            title="@string/peace_title" />
+    </category>
+    <category id="Bloom" title="@string/bloom_title">
+        <static-wallpaper
+            id="hellebores"
+            src="@drawable/hellebores"
+            subtitle1="@string/bloom_description"
+            subtitle2="@string/bloom_attribution"
+            title="@string/hellebores_title" />
+        <static-wallpaper
+            id="hellebores_light"
+            src="@drawable/hellebores-light"
+            subtitle1="@string/bloom_description"
+            subtitle2="@string/bloom_attribution"
+            title="@string/hellebores_title" />
+        <static-wallpaper
+            id="persian"
+            src="@drawable/persian"
+            subtitle1="@string/bloom_description"
+            subtitle2="@string/bloom_attribution"
+            title="@string/persian_title" />
+        <static-wallpaper
+            id="persian_light"
+            src="@drawable/persian-light"
+            subtitle1="@string/bloom_description"
+            subtitle2="@string/bloom_attribution"
+            title="@string/persian_title" />
+    </category>
+    <category id="Community Lens" title="@string/community_title">
+        <static-wallpaper
             id="googlewp_community_one"
             src="@drawable/googlewp_community_one"
             subtitle1="@string/firefall_description"
             title="@string/firefall_title" />
-	</category>
-	<category id="Nothing" title="@string/title1">
-		<static-wallpaper
-	    id="wallpaper1"
-	    src="@drawable/wallpaper1"
-	    subtitle1="@string/wallpaper1subtitle"
-	    title="@string/wallpaper1title" />
-		<static-wallpaper
-	    id="wallpaper2"
-	    src="@drawable/wallpaper2"
-	    subtitle1="@string/wallpaper2subtitle"
-	    title="@string/wallpaper2title" />
-		<static-wallpaper
-	    id="wallpaper3"
-	    src="@drawable/wallpaper3"
-	    subtitle1="@string/wallpaper3subtitle"
-	    title="@string/wallpaper3title" />
-		<static-wallpaper
-	    id="wallpaper4"
-	    src="@drawable/wallpaper4"
-	    subtitle1="@string/wallpaper4subtitle"
-	    title="@string/wallpaper4title" />
-		<static-wallpaper
-	    id="wallpaper5"
-	    src="@drawable/wallpaper5"
-	    subtitle1="@string/wallpaper5subtitle"
-	    title="@string/wallpaper5title" />
-		<static-wallpaper
-	    id="wallpaper6"
-	    src="@drawable/wallpaper6"
-	    subtitle1="@string/wallpaper6subtitle"
-	    title="@string/wallpaper6title" />
-		<static-wallpaper
-	    id="wallpaper7"
-	    src="@drawable/wallpaper7"
-	    subtitle1="@string/wallpaper7subtitle"
-	    title="@string/wallpaper7title" />
-		<static-wallpaper
-	    id="wallpaper8"
-	    src="@drawable/wallpaper8"
-	    subtitle1="@string/wallpaper8subtitle"
-	    title="@string/wallpaper8title" />
-		<static-wallpaper
-	    id="wallpaper9"
-	    src="@drawable/wallpaper9"
+    </category>
+    <category id="Nothing" title="@string/title1">
+        <static-wallpaper
+            id="wallpaper1"
+            src="@drawable/wallpaper1"
+            subtitle1="@string/wallpaper1subtitle"
+            title="@string/wallpaper1title" />
+        <static-wallpaper
+            id="wallpaper2"
+            src="@drawable/wallpaper2"
+            subtitle1="@string/wallpaper2subtitle"
+            title="@string/wallpaper2title" />
+        <static-wallpaper
+            id="wallpaper3"
+            src="@drawable/wallpaper3"
+            subtitle1="@string/wallpaper3subtitle"
+            title="@string/wallpaper3title" />
+        <static-wallpaper
+            id="wallpaper4"
+            src="@drawable/wallpaper4"
+            subtitle1="@string/wallpaper4subtitle"
+            title="@string/wallpaper4title" />
+        <static-wallpaper
+            id="wallpaper5"
+            src="@drawable/wallpaper5"
+            subtitle1="@string/wallpaper5subtitle"
+            title="@string/wallpaper5title" />
+        <static-wallpaper
+            id="wallpaper6"
+            src="@drawable/wallpaper6"
+            subtitle1="@string/wallpaper6subtitle"
+            title="@string/wallpaper6title" />
+        <static-wallpaper
+            id="wallpaper7"
+            src="@drawable/wallpaper7"
+            subtitle1="@string/wallpaper7subtitle"
+            title="@string/wallpaper7title" />
+        <static-wallpaper
+            id="wallpaper8"
+            src="@drawable/wallpaper8"
+            subtitle1="@string/wallpaper8subtitle"
+            title="@string/wallpaper8title" />
+        <static-wallpaper
+            id="wallpaper9"
+            src="@drawable/wallpaper9"
             subtitle1="@string/wallpaper9subtitle"
-	    title="@string/wallpaper9title" />
-		<static-wallpaper
-	    id="wallpaper10"
-	    src="@drawable/wallpaper10"
+            title="@string/wallpaper9title" />
+        <static-wallpaper
+            id="wallpaper10"
+            src="@drawable/wallpaper10"
             subtitle1="@string/wallpaper10subtitle"
-	    title="@string/wallpaper10title" />
-	</category>
-	<category id="Nothing_2.0" title="@string/nothing_2">
-		<static-wallpaper
-	    id="nt_wallpaper_emyl_dark"
-	    src="@drawable/nt_wallpaper_emyl_dark"
-	    subtitle1="@string/nt_wallpaper_emyl_dark_subtitle"
-	    title="@string/nt_wallpaper_emyl_dark" />
-		<static-wallpaper
-	    id="nt_wallpaper_emyl_light"
-	    src="@drawable/nt_wallpaper_emyl_light"
-	    subtitle1="@string/nt_wallpaper_emyl_light_subtitle"
-	    title="@string/nt_wallpaper_emyl_light" />
-		<static-wallpaper
-	    id="nt_wallpaper_argesi_dark"
-	    src="@drawable/nt_wallpaper_argesi_dark"
-	    subtitle1="@string/nt_wallpaper_argesi_dark_subtitle"
-	    title="@string/nt_wallpaper_argesi_dark" />
-		<static-wallpaper
-	    id="nt_wallpaper_fottse_dark"
-	    src="@drawable/nt_wallpaper_fottse_dark"
-	    subtitle1="@string/nt_wallpaper_fottse_dark_subtitle"
-	    title="@string/nt_wallpaper_fottse_dark" />
-		<static-wallpaper
-	    id="nt_wallpaper_argesi_light"
-	    src="@drawable/nt_wallpaper_argesi_light"
-	    subtitle1="@string/nt_wallpaper_argesi_light_subtitle"
-	    title="@string/nt_wallpaper_argesi_light" />
-		<static-wallpaper
-	    id="nt_wallpaper_fottse_light"
-	    src="@drawable/nt_wallpaper_fottse_light"
-	    subtitle1="@string/nt_wallpaper_fottse_light_subtitle"
-	    title="@string/nt_wallpaper_fottse_light" />
-		<static-wallpaper
-	    id="nt_wallpaper_octopus_dark"
-	    src="@drawable/nt_wallpaper_octopus_dark"
-	    subtitle1="@string/nt_wallpaper_octopus_dark_subtitle"
-	    title="@string/nt_wallpaper_octopus_dark" />
-		<static-wallpaper
-	    id="nt_wallpaper_octopus_light"
-	    src="@drawable/nt_wallpaper_octopus_light"
-	    subtitle1="@string/nt_wallpaper_octopus_light_subtitle"
-	    title="@string/nt_wallpaper_octopus_light" />
-		<static-wallpaper
-	    id="nt_wallpaper_hazy_flower_dark"
-	    src="@drawable/nt_wallpaper_hazy_flower_dark"
-        subtitle1="@string/nt_wallpaper_hazy_flower_dark_subtitle"
-	    title="@string/nt_wallpaper_hazy_flower_dark" />
-		<static-wallpaper
-	    id="nt_wallpaper_hazy_flower_light"
-	    src="@drawable/nt_wallpaper_hazy_flower_light"
+            title="@string/wallpaper10title" />
+    </category>
+    <category id="Nothing_2.0" title="@string/nothing_2">
+        <static-wallpaper
+            id="nt_wallpaper_emyl_dark"
+            src="@drawable/nt_wallpaper_emyl_dark"
+            subtitle1="@string/nt_wallpaper_emyl_dark_subtitle"
+            title="@string/nt_wallpaper_emyl_dark" />
+        <static-wallpaper
+            id="nt_wallpaper_emyl_light"
+            src="@drawable/nt_wallpaper_emyl_light"
+            subtitle1="@string/nt_wallpaper_emyl_light_subtitle"
+            title="@string/nt_wallpaper_emyl_light" />
+        <static-wallpaper
+            id="nt_wallpaper_argesi_dark"
+            src="@drawable/nt_wallpaper_argesi_dark"
+            subtitle1="@string/nt_wallpaper_argesi_dark_subtitle"
+            title="@string/nt_wallpaper_argesi_dark" />
+        <static-wallpaper
+            id="nt_wallpaper_fottse_dark"
+            src="@drawable/nt_wallpaper_fottse_dark"
+            subtitle1="@string/nt_wallpaper_fottse_dark_subtitle"
+            title="@string/nt_wallpaper_fottse_dark" />
+        <static-wallpaper
+            id="nt_wallpaper_argesi_light"
+            src="@drawable/nt_wallpaper_argesi_light"
+            subtitle1="@string/nt_wallpaper_argesi_light_subtitle"
+            title="@string/nt_wallpaper_argesi_light" />
+        <static-wallpaper
+            id="nt_wallpaper_fottse_light"
+            src="@drawable/nt_wallpaper_fottse_light"
+            subtitle1="@string/nt_wallpaper_fottse_light_subtitle"
+            title="@string/nt_wallpaper_fottse_light" />
+        <static-wallpaper
+            id="nt_wallpaper_octopus_dark"
+            src="@drawable/nt_wallpaper_octopus_dark"
+            subtitle1="@string/nt_wallpaper_octopus_dark_subtitle"
+            title="@string/nt_wallpaper_octopus_dark" />
+        <static-wallpaper
+            id="nt_wallpaper_octopus_light"
+            src="@drawable/nt_wallpaper_octopus_light"
+            subtitle1="@string/nt_wallpaper_octopus_light_subtitle"
+            title="@string/nt_wallpaper_octopus_light" />
+        <static-wallpaper
+            id="nt_wallpaper_hazy_flower_dark"
+            src="@drawable/nt_wallpaper_hazy_flower_dark"
+            subtitle1="@string/nt_wallpaper_hazy_flower_dark_subtitle"
+            title="@string/nt_wallpaper_hazy_flower_dark" />
+        <static-wallpaper
+            id="nt_wallpaper_hazy_flower_light"
+            src="@drawable/nt_wallpaper_hazy_flower_light"
             subtitle1="@string/nt_wallpaper_hazy_flower_light_subtitle"
-	    title="@string/nt_wallpaper_hazy_flower_light" />
-		<static-wallpaper
-	    id="nt_wallpaper_flower_green_glass"
-	    src="@drawable/nt_wallpaper_flower_green_glass"
+            title="@string/nt_wallpaper_hazy_flower_light" />
+        <static-wallpaper
+            id="nt_wallpaper_flower_green_glass"
+            src="@drawable/nt_wallpaper_flower_green_glass"
             subtitle1="@string/nt_wallpaper_flower_green_glass_subtitle"
-	    title="@string/nt_wallpaper_flower_green_glass" />
-		<static-wallpaper
-	    id="nt_wallpaper_flower_orange_glass"
-	    src="@drawable/nt_wallpaper_flower_orange_glass"
+            title="@string/nt_wallpaper_flower_green_glass" />
+        <static-wallpaper
+            id="nt_wallpaper_flower_orange_glass"
+            src="@drawable/nt_wallpaper_flower_orange_glass"
             subtitle1="@string/nt_wallpaper_flower_orange_glass_subtitle"
-	    title="@string/nt_wallpaper_flower_orange_glass" />
-	</category>
-	<category id="Pixel Superfans" title="@string/pixel_super_title">
-		<static-wallpaper
-	        id="linda_jiang"
-	        src="@drawable/px_sf_linda_jiang"
-	        subtitle1="@string/linda_jiang_desc"
-	        title="@string/linda_jiang_rose" />
-		<static-wallpaper
-	        id="rachael_roberts"
-	        src="@drawable/px_sf_rachael_roberts"
-	        subtitle1="@string/rachael_roberts_desc"
-	        title="@string/rachael_roberts_green_carpet" />
-		<static-wallpaper
-	        id="jess_ng"
-	        src="@drawable/px_sf_jess_ng"
-	        subtitle1="@string/jess_ng_blue_desc"
-	        title="@string/jess_ng_blue" />
-		<static-wallpaper
-	        id="yeongkeun_jeong"
-	        src="@drawable/px_sf_yeongkeun_jeong"
-	        subtitle1="@string/yeongkeun_jeong_desc"
-	        title="@string/yeongkeun_jeong_symphony" />
-	</category>
-	<category id="Minerals" title="@string/minerals_title">
-		<static-wallpaper
-	        id="haze_dark"
-	        src="@drawable/haze_dark"
-	        title="@string/haze_dark" />
-		<static-wallpaper
-	        id="jade_dark"
-	        src="@drawable/jade_dark"
-	        title="@string/jade_dark" />
-		<static-wallpaper
-	        id="haze_light"
-	        src="@drawable/haze_light"
-	        title="@string/haze_light" />
-		<static-wallpaper
-	        id="jade_light"
-	        src="@drawable/jade_light"
-	        title="@string/jade_light" />
-		<static-wallpaper
-	        id="peony_dark"
-	        src="@drawable/peony_dark"
-	        title="@string/peony_dark" />
-		<static-wallpaper
-	        id="peony_light"
-	        src="@drawable/peony_light"
-	        title="@string/peony_light" />
-		<static-wallpaper
-	        id="barite_light"
-	        src="@drawable/barite_light"
-	        title="@string/barite_light" />
-		<static-wallpaper
-	        id="calcite_dark"
-	        src="@drawable/calcite_dark"
-	        title="@string/calcite_dark" />
-		<static-wallpaper
-	        id="ilvaite_dark"
-	        src="@drawable/ilvaite_dark"
-	        title="@string/ilvaite_dark" />
-		<static-wallpaper
-	        id="sky_dark"
-	        src="@drawable/sky_dark"
-	        title="@string/sky_dark" />
-		<static-wallpaper
-	        id="calcite_light"
-	        src="@drawable/calcite_light"
-	        title="@string/calcite_light" />
-		<static-wallpaper
-	        id="dioptase_dark"
-	        src="@drawable/dioptase_dark"
-	        title="@string/dioptase_dark" />
-		<static-wallpaper
-	        id="ilvaite_light"
-	        src="@drawable/ilvaite_light"
-	        title="@string/ilvaite_light" />
-		<static-wallpaper
-	        id="amethyst_licorice_dark"
-	        src="@drawable/amethyst_licorice_dark"
-	        title="@string/amethyst_licorice_dark" />
-		<static-wallpaper
-	        id="emerald_jade_dark"
-	        src="@drawable/emerald_jade_dark"
-	        title="@string/emerald_jade_dark" />
-		<static-wallpaper
-	        id="sky_light"
-	        src="@drawable/sky_light"
-	        title="@string/sky_light" />
-		<static-wallpaper
-	        id="danburite_dark"
-	        src="@drawable/danburite_dark"
-	        title="@string/danburite_dark" />
-		<static-wallpaper
-	        id="dioptase_light"
-	        src="@drawable/dioptase_light"
-	        title="@string/dioptase_light" />
-		<static-wallpaper
-	        id="amethyst_licorice_light"
-	        src="@drawable/amethyst_licorice_light"
-	        title="@string/amethyst_licorice_light" />
-		<static-wallpaper
-	        id="emerald_jade_light"
-	        src="@drawable/emerald_jade_light"
-	        title="@string/emerald_jade_light" />
-		<static-wallpaper
-	        id="danburite_light"
-	        src="@drawable/danburite_light"
-	        title="@string/danburite_light" />
-		<static-wallpaper
-	        id="sphalerite_dark"
-	        src="@drawable/sphalerite_dark"
-	        title="@string/sphalerite_dark" />
-		<static-wallpaper
-	        id="sphalerite_light"
-	        src="@drawable/sphalerite_light"
-	        title="@string/sphalerite_light" />
-		<static-wallpaper
-	        id="black_licorice_dark"
-	        src="@drawable/black_licorice_dark"
-	        title="@string/black_licorice_dark" />
-		<static-wallpaper
-	        id="black_licorice_light"
-	        src="@drawable/black_licorice_light"
-	        title="@string/black_licorice_light" />
-		<static-wallpaper
-	        id="porcelain_dark"
-	        src="@drawable/porcelain_dark"
-	        title="@string/porcelain_dark" />
-		<static-wallpaper
-	        id="porcelain_light"
-	        src="@drawable/porcelain_light"
-	        title="@string/porcelain_light" />
-	</category>
-	<category id="Pixel 8 Minerals" title="@string/pixel8a_minerals_title">
-		<static-wallpaper
-	        id="titanite_d"
-	        src="@drawable/p8-emerald-dark"
-	        title="@string/p8-emerald-dark"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="titanite_l"
-	        src="@drawable/p8-emerald-light"
-	        title="@string/p8-emerald-light"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="hematite_d"
-	        src="@drawable/p8-licorice-dark"
-	        title="@string/p8-licorice-dark"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="hematite_l"
-	        src="@drawable/p8-licorice-light"
-	        title="@string/p8-licorice-light"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="barite_d"
-	        src="@drawable/p8-sky-dark"
-	        title="@string/p8-sky-dark"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="barite_l"
-	        src="@drawable/p8-sky-light"
-	        title="@string/p8-sky-light"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="porcelain_d"
-	        src="@drawable/p8-porcelain-dark"
-	        title="@string/p8-porcelain-dark"
-	        subtitle1="@string/p8_collection_desc" />
-		<static-wallpaper
-	        id="porcelain_l"
-	        src="@drawable/p8-porcelain-light"
-	        title="@string/p8-porcelain-light"
-	        subtitle1="@string/p8_collection_desc" />
-	</category>
-	<category id="Nothing 2a" title="@string/nothing2a">
-		<static-wallpaper
+            title="@string/nt_wallpaper_flower_orange_glass" />
+    </category>
+    <category id="Pixel Superfans" title="@string/pixel_super_title">
+        <static-wallpaper
+            id="linda_jiang"
+            src="@drawable/px_sf_linda_jiang"
+            subtitle1="@string/linda_jiang_desc"
+            title="@string/linda_jiang_rose" />
+        <static-wallpaper
+            id="rachael_roberts"
+            src="@drawable/px_sf_rachael_roberts"
+            subtitle1="@string/rachael_roberts_desc"
+            title="@string/rachael_roberts_green_carpet" />
+        <static-wallpaper
+            id="jess_ng"
+            src="@drawable/px_sf_jess_ng"
+            subtitle1="@string/jess_ng_blue_desc"
+            title="@string/jess_ng_blue" />
+        <static-wallpaper
+            id="yeongkeun_jeong"
+            src="@drawable/px_sf_yeongkeun_jeong"
+            subtitle1="@string/yeongkeun_jeong_desc"
+            title="@string/yeongkeun_jeong_symphony" />
+    </category>
+    <category id="Minerals" title="@string/minerals_title">
+        <static-wallpaper
+            id="haze_dark"
+            src="@drawable/haze_dark"
+            title="@string/haze_dark" />
+        <static-wallpaper
+            id="jade_dark"
+            src="@drawable/jade_dark"
+            title="@string/jade_dark" />
+        <static-wallpaper
+            id="haze_light"
+            src="@drawable/haze_light"
+            title="@string/haze_light" />
+        <static-wallpaper
+            id="jade_light"
+            src="@drawable/jade_light"
+            title="@string/jade_light" />
+        <static-wallpaper
+            id="peony_dark"
+            src="@drawable/peony_dark"
+            title="@string/peony_dark" />
+        <static-wallpaper
+            id="peony_light"
+            src="@drawable/peony_light"
+            title="@string/peony_light" />
+        <static-wallpaper
+            id="barite_light"
+            src="@drawable/barite_light"
+            title="@string/barite_light" />
+        <static-wallpaper
+            id="calcite_dark"
+            src="@drawable/calcite_dark"
+            title="@string/calcite_dark" />
+        <static-wallpaper
+            id="ilvaite_dark"
+            src="@drawable/ilvaite_dark"
+            title="@string/ilvaite_dark" />
+        <static-wallpaper
+            id="sky_dark"
+            src="@drawable/sky_dark"
+            title="@string/sky_dark" />
+        <static-wallpaper
+            id="calcite_light"
+            src="@drawable/calcite_light"
+            title="@string/calcite_light" />
+        <static-wallpaper
+            id="dioptase_dark"
+            src="@drawable/dioptase_dark"
+            title="@string/dioptase_dark" />
+        <static-wallpaper
+            id="ilvaite_light"
+            src="@drawable/ilvaite_light"
+            title="@string/ilvaite_light" />
+        <static-wallpaper
+            id="amethyst_licorice_dark"
+            src="@drawable/amethyst_licorice_dark"
+            title="@string/amethyst_licorice_dark" />
+        <static-wallpaper
+            id="emerald_jade_dark"
+            src="@drawable/emerald_jade_dark"
+            title="@string/emerald_jade_dark" />
+        <static-wallpaper
+            id="sky_light"
+            src="@drawable/sky_light"
+            title="@string/sky_light" />
+        <static-wallpaper
+            id="danburite_dark"
+            src="@drawable/danburite_dark"
+            title="@string/danburite_dark" />
+        <static-wallpaper
+            id="dioptase_light"
+            src="@drawable/dioptase_light"
+            title="@string/dioptase_light" />
+        <static-wallpaper
+            id="amethyst_licorice_light"
+            src="@drawable/amethyst_licorice_light"
+            title="@string/amethyst_licorice_light" />
+        <static-wallpaper
+            id="emerald_jade_light"
+            src="@drawable/emerald_jade_light"
+            title="@string/emerald_jade_light" />
+        <static-wallpaper
+            id="danburite_light"
+            src="@drawable/danburite_light"
+            title="@string/danburite_light" />
+        <static-wallpaper
+            id="sphalerite_dark"
+            src="@drawable/sphalerite_dark"
+            title="@string/sphalerite_dark" />
+        <static-wallpaper
+            id="sphalerite_light"
+            src="@drawable/sphalerite_light"
+            title="@string/sphalerite_light" />
+        <static-wallpaper
+            id="black_licorice_dark"
+            src="@drawable/black_licorice_dark"
+            title="@string/black_licorice_dark" />
+        <static-wallpaper
+            id="black_licorice_light"
+            src="@drawable/black_licorice_light"
+            title="@string/black_licorice_light" />
+        <static-wallpaper
+            id="porcelain_dark"
+            src="@drawable/porcelain_dark"
+            title="@string/porcelain_dark" />
+        <static-wallpaper
+            id="porcelain_light"
+            src="@drawable/porcelain_light"
+            title="@string/porcelain_light" />
+    </category>
+    <category id="Pixel 8 Minerals" title="@string/pixel8a_minerals_title">
+        <static-wallpaper
+            id="titanite_d"
+            src="@drawable/p8-emerald-dark"
+            title="@string/p8-emerald-dark"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="titanite_l"
+            src="@drawable/p8-emerald-light"
+            title="@string/p8-emerald-light"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="hematite_d"
+            src="@drawable/p8-licorice-dark"
+            title="@string/p8-licorice-dark"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="hematite_l"
+            src="@drawable/p8-licorice-light"
+            title="@string/p8-licorice-light"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="barite_d"
+            src="@drawable/p8-sky-dark"
+            title="@string/p8-sky-dark"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="barite_l"
+            src="@drawable/p8-sky-light"
+            title="@string/p8-sky-light"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="porcelain_d"
+            src="@drawable/p8-porcelain-dark"
+            title="@string/p8-porcelain-dark"
+            subtitle1="@string/p8_collection_desc" />
+        <static-wallpaper
+            id="porcelain_l"
+            src="@drawable/p8-porcelain-light"
+            title="@string/p8-porcelain-light"
+            subtitle1="@string/p8_collection_desc" />
+    </category>
+    <category id="Nothing 2a" title="@string/nothing2a">
+        <static-wallpaper
             id="Ruxe"
             src="@drawable/Ruxe"
             title="@string/nothing_ruxe" />
-		<static-wallpaper
+        <static-wallpaper
             id="Ambra"
             src="@drawable/Ambra"
             title="@string/nothing_ambra" />
-		<static-wallpaper
+        <static-wallpaper
             id="Nexul"
             src="@drawable/Nexul"
             title="@string/nothing_nexul" />
-		<static-wallpaper
+        <static-wallpaper
             id="Azunim"
             src="@drawable/Azunim"
             title="@string/nothing_azunim" />
-		<static-wallpaper
+        <static-wallpaper
             id="Virmar"
             src="@drawable/Virmar"
             title="@string/nothing_virmar" />
-		<static-wallpaper
+        <static-wallpaper
             id="Orbique"
             src="@drawable/Orbique"
             title="@string/nothing_orbique" />
-		<static-wallpaper
+        <static-wallpaper
             id="Rubrane"
             src="@drawable/Rubrane"
             title="@string/nothing_rubrane" />
-	</category>
-	
+    </category>
+
     <category id="Pixel 9 Series" title="@string/pixel_9_series">
         <static-wallpaper
             id="jade_dark"
@@ -473,7 +576,7 @@
             id="obsidian_dark"
             src="@drawable/obsidian_dark"
             title="@string/obsidian_dark_title" />
-        <static-wallaper
+        <static-wallpaper
             id="obsidian_light"
             src="@drawable/obsidian_light"
             title="@string/obsidian_light_title" />
@@ -526,7 +629,7 @@
             src="@drawable/premium_rose_light"
             title="@string/premium_rose_light_title" />
     </category>
-    
+
     <category id="cmf_wallpapers" title="@string/cmf_wallpapers">
         <static-wallpaper
             id="cmf_wallpaper1"
@@ -540,214 +643,94 @@
             id="cmf_wallpaper3"
             src="@drawable/cmf_wall_3"
             title="@string/cmf_wallpaper3_title" />
-        <static-wallaper
+        <static-wallpaper
             id="cmf_wallpaper4"
             src="@drawable/cmf_wall_4"
             title="@string/cmf_wallpaper4_title" />
     </category>
-    
+
     <category id="n2ap_community_edition" title="@string/n2ap_community_edition_title">
         <static-wallpaper
             id="n2ap_wall1"
             src="@drawable/n2ap_wall1"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="n2ap_wall2"
             src="@drawable/n2ap_wall2"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="n2ap_wall3"
             src="@drawable/n2ap_wall3"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="n2ap_wall4"
             src="@drawable/n2ap_wall4"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="n2ap_wall5"
             src="@drawable/n2ap_wall5"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="n2ap_wall6"
             src="@drawable/n2ap_wall6"
             title="@string/n2ap_community_edition_wp_title"
             subtitle2="@string/n2ap_community_edition_attribution"
-             />
+            />
     </category>
-    
+
     <category id="n3ap_community_edition" title="@string/n3ap_community_edition_title">
         <static-wallpaper
             id="nt_3a_1"
             src="@drawable/nt_3a_1"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_2"
             src="@drawable/nt_3a_2"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_3"
             src="@drawable/nt_3a_3"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_4"
             src="@drawable/nt_3a_4"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_5"
             src="@drawable/nt_3a_5"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_6"
             src="@drawable/nt_3a_6"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
+            />
         <static-wallpaper
             id="nt_3a_7"
             src="@drawable/nt_3a_7"
             title="@string/n3ap_community_edition_wp_title"
             subtitle2="@string/n3ap_community_edition_attribution"
-             />
-    </category>
-    
-    <category id="ax_walls" title="@string/ax_walls_title">
-        <static-wallpaper
-            id="ax_1"
-            src="@drawable/ax_1"
-            title="@string/ax_walls_title"
-            subtitle2="@string/ax_walls_attribution_1"
-             />
-        <static-wallpaper
-            id="ax_1_3"
-            src="@drawable/ax_1_3"
-            title="@string/ax_walls_title"
-            subtitle2="@string/ax_walls_attribution_2"
-             />
-    </category>
-
-    <category id="axion_walls" title="@string/axion_walls_title">
-        <static-wallpaper
-            id="axion_black"
-            src="@drawable/axion_black"
-            title="@string/axion_black"
-            subtitle2="@string/axion_black_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_electric_purple"
-            src="@drawable/axion_electric_purple"
-            title="@string/axion_electric_purple"
-            subtitle2="@string/axion_electric_purple_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_emerald"
-            src="@drawable/axion_emerald"
-            title="@string/axion_emerald"
-            subtitle2="@string/axion_emerald_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_gold"
-            src="@drawable/axion_gold"
-            title="@string/axion_gold"
-            subtitle2="@string/axion_gold_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_golden_brown"
-            src="@drawable/axion_golden_brown"
-            title="@string/axion_golden_brown"
-            subtitle2="@string/axion_golden_brown_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_orange"
-            src="@drawable/axion_orange"
-            title="@string/axion_orange"
-            subtitle2="@string/axion_orange_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_yellow"
-            src="@drawable/axion_yellow"
-            title="@string/axion_yellow"
-            subtitle2="@string/axion_yellow_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix1"
-            src="@drawable/axion_remix1"
-            title="@string/axion_remix1"
-            subtitle2="@string/axion_remix1_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix2"
-            src="@drawable/axion_remix2"
-            title="@string/axion_remix2"
-            subtitle2="@string/axion_remix2_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix3"
-            src="@drawable/axion_remix3"
-            title="@string/axion_remix3"
-            subtitle2="@string/axion_remix3_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix4"
-            src="@drawable/axion_remix4"
-            title="@string/axion_remix4"
-            subtitle2="@string/axion_remix4_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix5"
-            src="@drawable/axion_remix5"
-            title="@string/axion_remix5"
-            subtitle2="@string/axion_remix5_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix6"
-            src="@drawable/axion_remix6"
-            title="@string/axion_remix6"
-            subtitle2="@string/axion_remix6_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix7"
-            src="@drawable/axion_remix7"
-            title="@string/axion_remix7"
-            subtitle2="@string/axion_remix7_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_remix8"
-            src="@drawable/axion_remix8"
-            title="@string/axion_remix8"
-            subtitle2="@string/axion_remix8_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_twofive"
-            src="@drawable/axion_twofive"
-            title="@string/axion_twofive"
-            subtitle2="@string/axion_twofive_wallpaper"
-             />
-        <static-wallpaper
-            id="axion_twofive_logo"
-            src="@drawable/axion_twofive_logo"
-            title="@string/axion_twofive_logo"
-            subtitle2="@string/axion_twofive_logo_wallpaper"
-             />
+            />
     </category>
 
     <category id="nothing_os_4_0_walls" title="@string/nothing_os_4_0_walls_title">
@@ -756,13 +739,13 @@
             src="@drawable/nothing_os_4.0_blue"
             title="@string/nothing_os_4_0_blue"
             subtitle2="@string/nothing_os_4_0_blue_wallpaper"
-             />
+            />
         <static-wallpaper
             id="nothing_os_4.0_green"
             src="@drawable/nothing_os_4.0_green"
             title="@string/nothing_os_4_0_green"
             subtitle2="@string/nothing_os_4_0_green_wallpaper"
-             />
+            />
     </category>
 
     <category id="community_2x3_walls" title="@string/community_2x3_walls_title">
@@ -771,37 +754,37 @@
             src="@drawable/community_2x3_1"
             title="@string/community_2x3_1"
             subtitle2="@string/community_2x3_1_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2"
             src="@drawable/community_2x3_2"
             title="@string/community_2x3_2"
             subtitle2="@string/community_2x3_2_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_3"
             src="@drawable/community_2x3_3"
             title="@string/community_2x3_3"
             subtitle2="@string/community_2x3_3_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_4"
             src="@drawable/community_2x3_4"
             title="@string/community_2x3_4"
             subtitle2="@string/community_2x3_4_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_5"
             src="@drawable/community_2x3_5"
             title="@string/community_2x3_5"
             subtitle2="@string/community_2x3_5_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_6"
             src="@drawable/community_2x3_6"
             title="@string/community_2x3_6"
             subtitle2="@string/community_2x3_6_wallpaper"
-             />
+            />
     </category>
 
 
@@ -811,43 +794,43 @@
             src="@drawable/community_2x3_2_1"
             title="@string/community_2x3_2_1"
             subtitle2="@string/community_2x3_2_1_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_2"
             src="@drawable/community_2x3_2_2"
             title="@string/community_2x3_2_2"
             subtitle2="@string/community_2x3_2_2_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_3"
             src="@drawable/community_2x3_2_3"
             title="@string/community_2x3_2_3"
             subtitle2="@string/community_2x3_2_3_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_4"
             src="@drawable/community_2x3_2_4"
             title="@string/community_2x3_2_4"
             subtitle2="@string/community_2x3_2_4_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_5"
             src="@drawable/community_2x3_2_5"
             title="@string/community_2x3_2_5"
             subtitle2="@string/community_2x3_2_5_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_6"
             src="@drawable/community_2x3_2_6"
             title="@string/community_2x3_2_6"
             subtitle2="@string/community_2x3_2_6_wallpaper"
-             />
+            />
         <static-wallpaper
             id="community_2x3_2_7"
             src="@drawable/community_2x3_2_7"
             title="@string/community_2x3_2_7"
             subtitle2="@string/community_2x3_2_7_wallpaper"
-             />
+            />
     </category>
 
 </resources>

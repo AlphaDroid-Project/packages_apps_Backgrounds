@@ -11,7 +11,7 @@ import re
 
 TARGET_DIR = "./res_walls/drawable-nodpi"
 XML_FILE = "./res_walls/xml/wallpapers.xml"
-STRINGS_FILE = "./res/values/axion_strings.xml"
+STRINGS_FILE = "./res_walls/values/wallpaper_strings.xml"
 SUPPORTED_EXTENSIONS = ["png", "jpg", "jpeg"]
 
 def sanitize_resource_name(text):

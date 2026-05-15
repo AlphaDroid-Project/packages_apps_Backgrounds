@@ -199,8 +199,74 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="n3ap_community_edition_wp_title">Nothing 3a wallpaper</string>
     <string name="n3ap_community_edition_attribution">by Nothing Tech</string>
     
-    <!-- Axion -->
-    <string name="ax_walls_title">Axion wallpapers</string>
-    <string name="ax_walls_attribution_1">Photo by Caleb George</string>
-    <string name="ax_walls_attribution_2">Photo by Allec Gomes</string>
+    <!-- AlphaDroid -->
+    <string name="alpha_walls_title">AlphaDroid</string>
+    <string name="neon_droid_title">Neon Droid</string>
+    
+    <!-- Nothing OS 4.0 -->
+    <string name="nothing_os_4_0_walls_title">Nothing Os 4.0</string>
+    <string name="nothing_os_4_0_blue">Nothing Os 4.0 Blue</string>
+    <string name="nothing_os_4_0_blue_wallpaper">Nothing Os 4.0 Blue Wallpaper</string>
+    <string name="nothing_os_4_0_green">Nothing Os 4.0 Green</string>
+    <string name="nothing_os_4_0_green_wallpaper">Nothing Os 4.0 Green Wallpaper</string>
+    
+    <!-- Community 2x3 -->
+    <string name="community_2x3_walls_title">Community 2x3</string>
+    <string name="community_2x3_1">Community 2x3 1</string>
+    <string name="community_2x3_1_wallpaper">Community 2x3 1 Wallpaper</string>
+    <string name="community_2x3_2">Community 2x3 2</string>
+    <string name="community_2x3_2_wallpaper">Community 2x3 2 Wallpaper</string>
+    <string name="community_2x3_3">Community 2x3 3</string>
+    <string name="community_2x3_3_wallpaper">Community 2x3 3 Wallpaper</string>
+    <string name="community_2x3_4">Community 2x3 4</string>
+    <string name="community_2x3_4_wallpaper">Community 2x3 4 Wallpaper</string>
+    <string name="community_2x3_5">Community 2x3 5</string>
+    <string name="community_2x3_5_wallpaper">Community 2x3 5 Wallpaper</string>
+    <string name="community_2x3_6">Community 2x3 6</string>
+    <string name="community_2x3_6_wallpaper">Community 2x3 6 Wallpaper</string>
+    
+    <!-- Community 2x3 2 -->
+    <string name="community_2x3_2_walls_title">Community 2x3 2</string>
+    <string name="community_2x3_2_1">Community 2x3 2 1</string>
+    <string name="community_2x3_2_1_wallpaper">Community 2x3 2 1 Wallpaper</string>
+    <string name="community_2x3_2_2">Community 2x3 2 2</string>
+    <string name="community_2x3_2_2_wallpaper">Community 2x3 2 2 Wallpaper</string>
+    <string name="community_2x3_2_3">Community 2x3 2 3</string>
+    <string name="community_2x3_2_3_wallpaper">Community 2x3 2 3 Wallpaper</string>
+    <string name="community_2x3_2_4">Community 2x3 2 4</string>
+    <string name="community_2x3_2_4_wallpaper">Community 2x3 2 4 Wallpaper</string>
+    <string name="community_2x3_2_5">Community 2x3 2 5</string>
+    <string name="community_2x3_2_5_wallpaper">Community 2x3 2 5 Wallpaper</string>
+    <string name="community_2x3_2_6">Community 2x3 2 6</string>
+    <string name="community_2x3_2_6_wallpaper">Community 2x3 2 6 Wallpaper</string>
+    <string name="community_2x3_2_7">Community 2x3 2 7</string>
+    <string name="community_2x3_2_7_wallpaper">Community 2x3 2 7 Wallpaper</string>
+    
+    <!-- AlphaDroid wallpapers -->
+    <string name="alpha_nexus_prime_title">Nexus Prime</string>
+    <string name="alpha_quantum_flux_title">Quantum Flux</string>
+    <string name="alpha_stellar_drift_title">Stellar Drift</string>
+    <string name="alpha_cyber_bloom_title">Cyber Bloom</string>
+    <string name="alpha_nebula_haze_title">Nebula Haze</string>
+    <string name="alpha_binary_dawn_title">Binary Dawn</string>
+    <string name="alpha_omega_wave_title">Omega Wave</string>
+    <string name="alpha_stardust_pulse_title">Stardust Pulse</string>
+    <string name="alpha_cosmic_echo_title">Cosmic Echo</string>
+    <string name="alpha_pixel_storm_title">Pixel Storm</string>
+    <string name="alpha_void_horizon_title">Void Horizon</string>
+    <string name="alpha_aurora_core_title">Aurora Core</string>
+    <string name="alpha_synthwave_drift_title">Synthwave Drift</string>
+    <string name="alpha_prism_spark_title">Prism Spark</string>
+    <string name="alpha_galactic_glow_title">Galactic Glow</string>
+    <string name="alpha_eclipse_shadow_title">Eclipse Shadow</string>
+    <string name="alpha_plasma_surge_title">Plasma Surge</string>
+    <string name="alpha_digital_dawn_title">Digital Dawn</string>
+    <string name="alpha_nova_burst_title">Nova Burst</string>
+    
+    <!-- Neon Droid wallpapers -->
+    <string name="alpha_neon_droid_blue_title">Neon Droid (Blue)</string>
+    <string name="alpha_neon_droid_red_title">Neon Droid (Red)</string>
+    <string name="alpha_neon_droid_orange_title">Neon Droid (Orange)</string>
+    <string name="alpha_neon_droid_green_title">Neon Droid (Green)</string>
+    <string name="alpha_neon_droid_purple_title">Neon Droid (Purple)</string>
 </resources>
