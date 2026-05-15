@@ -435,6 +435,34 @@ def repair():
         print(f"\n{len(missing_drawables)} drawable(s) referenced in xml but missing on disk:")
         for d in sorted(missing_drawables):
             print(f"  - {d}")
+        if input("\nremove dead entries from wallpapers.xml? (y/n): ").strip().lower() == 'y':
+            with open(XML_FILE, 'r', encoding='utf-8') as f:
+                xml_content = f.read()
+
+            for d in missing_drawables:
+                pattern = re.compile(
+                    r'[ \t]*<static-wallpaper\b[^>]*src="@drawable/' + re.escape(d) + r'"[^>]*?/>\n?',
+                    re.DOTALL,
+                )
+                xml_content = pattern.sub('', xml_content)
+                # Also handle the typo variant <static-wallaper (missing 'p')
+                pattern2 = re.compile(
+                    r'[ \t]*<static-wallaper\b[^>]*src="@drawable/' + re.escape(d) + r'"[^>]*?/>\n?',
+                    re.DOTALL,
+                )
+                xml_content = pattern2.sub('', xml_content)
+
+            # Remove empty categories (no <static-wallpaper entries left inside)
+            empty_cat = re.compile(
+                r'[ \t]*<category\s+id="[^"]*"[^>]*>\s*</category>\n?',
+                re.DOTALL,
+            )
+            xml_content = empty_cat.sub('', xml_content)
+
+            with open(XML_FILE, 'w', encoding='utf-8') as f:
+                f.write(xml_content)
+            fixed += len(missing_drawables)
+            print(f"removed {len(missing_drawables)} dead wallpaper entries from xml.")
 
     orphan_drawables = webp_files - drawables_in_xml
     if orphan_drawables:

@@ -86,7 +86,6 @@
             src="@drawable/alpha_nova_burst"
             title="@string/alpha_nova_burst_title" />
     </category>
-
     <category id="neon_droid" title="@string/neon_droid_title">
         <static-wallpaper
             id="alpha_neon_droid_blue"
@@ -109,7 +108,6 @@
             src="@drawable/alpha_neon_droid_purple"
             title="@string/alpha_neon_droid_purple_title" />
     </category>
-
     <category id="Feathers" title="@string/feathers_title">
         <static-wallpaper
             id="p10_snow_dark"
@@ -562,7 +560,6 @@
             src="@drawable/Rubrane"
             title="@string/nothing_rubrane" />
     </category>
-
     <category id="Pixel 9 Series" title="@string/pixel_9_series">
         <static-wallpaper
             id="jade_dark"
@@ -629,7 +626,6 @@
             src="@drawable/premium_rose_light"
             title="@string/premium_rose_light_title" />
     </category>
-
     <category id="cmf_wallpapers" title="@string/cmf_wallpapers">
         <static-wallpaper
             id="cmf_wallpaper1"
@@ -687,7 +683,6 @@
             subtitle2="@string/n2ap_community_edition_attribution"
             />
     </category>
-
     <category id="n3ap_community_edition" title="@string/n3ap_community_edition_title">
         <static-wallpaper
             id="nt_3a_1"
@@ -732,7 +727,6 @@
             subtitle2="@string/n3ap_community_edition_attribution"
             />
     </category>
-
     <category id="nothing_os_4_0_walls" title="@string/nothing_os_4_0_walls_title">
         <static-wallpaper
             id="nothing_os_4.0_blue"
@@ -747,90 +741,4 @@
             subtitle2="@string/nothing_os_4_0_green_wallpaper"
             />
     </category>
-
-    <category id="community_2x3_walls" title="@string/community_2x3_walls_title">
-        <static-wallpaper
-            id="community_2x3_1"
-            src="@drawable/community_2x3_1"
-            title="@string/community_2x3_1"
-            subtitle2="@string/community_2x3_1_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2"
-            src="@drawable/community_2x3_2"
-            title="@string/community_2x3_2"
-            subtitle2="@string/community_2x3_2_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_3"
-            src="@drawable/community_2x3_3"
-            title="@string/community_2x3_3"
-            subtitle2="@string/community_2x3_3_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_4"
-            src="@drawable/community_2x3_4"
-            title="@string/community_2x3_4"
-            subtitle2="@string/community_2x3_4_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_5"
-            src="@drawable/community_2x3_5"
-            title="@string/community_2x3_5"
-            subtitle2="@string/community_2x3_5_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_6"
-            src="@drawable/community_2x3_6"
-            title="@string/community_2x3_6"
-            subtitle2="@string/community_2x3_6_wallpaper"
-            />
-    </category>
-
-
-    <category id="community_2x3_2_walls" title="@string/community_2x3_2_walls_title">
-        <static-wallpaper
-            id="community_2x3_2_1"
-            src="@drawable/community_2x3_2_1"
-            title="@string/community_2x3_2_1"
-            subtitle2="@string/community_2x3_2_1_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_2"
-            src="@drawable/community_2x3_2_2"
-            title="@string/community_2x3_2_2"
-            subtitle2="@string/community_2x3_2_2_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_3"
-            src="@drawable/community_2x3_2_3"
-            title="@string/community_2x3_2_3"
-            subtitle2="@string/community_2x3_2_3_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_4"
-            src="@drawable/community_2x3_2_4"
-            title="@string/community_2x3_2_4"
-            subtitle2="@string/community_2x3_2_4_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_5"
-            src="@drawable/community_2x3_2_5"
-            title="@string/community_2x3_2_5"
-            subtitle2="@string/community_2x3_2_5_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_6"
-            src="@drawable/community_2x3_2_6"
-            title="@string/community_2x3_2_6"
-            subtitle2="@string/community_2x3_2_6_wallpaper"
-            />
-        <static-wallpaper
-            id="community_2x3_2_7"
-            src="@drawable/community_2x3_2_7"
-            title="@string/community_2x3_2_7"
-            subtitle2="@string/community_2x3_2_7_wallpaper"
-            />
-    </category>
-
 </resources>

@@ -3,6 +3,7 @@
     Copyright (C) 2021 Sourajit Karmakar
     Copyright (C) 2020-2022 Vaisakh Murali
     Copyright (C) 2023 The Rise OS Project
+    Copyright (C) 2026 AlphaDroid
 
     SPDX-License-Identifer: Apache-2.0
 -->
@@ -200,8 +201,8 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="n3ap_community_edition_attribution">by Nothing Tech</string>
     
     <!-- AlphaDroid -->
-    <string name="alpha_walls_title">AlphaDroid</string>
-    <string name="neon_droid_title">Neon Droid</string>
+    <string name="alpha_walls_title">Fanart</string>
+    <string name="neon_droid_title">Neondroid</string>
     
     <!-- Nothing OS 4.0 -->
     <string name="nothing_os_4_0_walls_title">Nothing Os 4.0</string>
@@ -210,37 +211,6 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="nothing_os_4_0_green">Nothing Os 4.0 Green</string>
     <string name="nothing_os_4_0_green_wallpaper">Nothing Os 4.0 Green Wallpaper</string>
     
-    <!-- Community 2x3 -->
-    <string name="community_2x3_walls_title">Community 2x3</string>
-    <string name="community_2x3_1">Community 2x3 1</string>
-    <string name="community_2x3_1_wallpaper">Community 2x3 1 Wallpaper</string>
-    <string name="community_2x3_2">Community 2x3 2</string>
-    <string name="community_2x3_2_wallpaper">Community 2x3 2 Wallpaper</string>
-    <string name="community_2x3_3">Community 2x3 3</string>
-    <string name="community_2x3_3_wallpaper">Community 2x3 3 Wallpaper</string>
-    <string name="community_2x3_4">Community 2x3 4</string>
-    <string name="community_2x3_4_wallpaper">Community 2x3 4 Wallpaper</string>
-    <string name="community_2x3_5">Community 2x3 5</string>
-    <string name="community_2x3_5_wallpaper">Community 2x3 5 Wallpaper</string>
-    <string name="community_2x3_6">Community 2x3 6</string>
-    <string name="community_2x3_6_wallpaper">Community 2x3 6 Wallpaper</string>
-    
-    <!-- Community 2x3 2 -->
-    <string name="community_2x3_2_walls_title">Community 2x3 2</string>
-    <string name="community_2x3_2_1">Community 2x3 2 1</string>
-    <string name="community_2x3_2_1_wallpaper">Community 2x3 2 1 Wallpaper</string>
-    <string name="community_2x3_2_2">Community 2x3 2 2</string>
-    <string name="community_2x3_2_2_wallpaper">Community 2x3 2 2 Wallpaper</string>
-    <string name="community_2x3_2_3">Community 2x3 2 3</string>
-    <string name="community_2x3_2_3_wallpaper">Community 2x3 2 3 Wallpaper</string>
-    <string name="community_2x3_2_4">Community 2x3 2 4</string>
-    <string name="community_2x3_2_4_wallpaper">Community 2x3 2 4 Wallpaper</string>
-    <string name="community_2x3_2_5">Community 2x3 2 5</string>
-    <string name="community_2x3_2_5_wallpaper">Community 2x3 2 5 Wallpaper</string>
-    <string name="community_2x3_2_6">Community 2x3 2 6</string>
-    <string name="community_2x3_2_6_wallpaper">Community 2x3 2 6 Wallpaper</string>
-    <string name="community_2x3_2_7">Community 2x3 2 7</string>
-    <string name="community_2x3_2_7_wallpaper">Community 2x3 2 7 Wallpaper</string>
     
     <!-- AlphaDroid wallpapers -->
     <string name="alpha_nexus_prime_title">Nexus Prime</string>
@@ -264,9 +234,9 @@ Outside of work, Rachael is a mum to three young children and an avid photograph
     <string name="alpha_nova_burst_title">Nova Burst</string>
     
     <!-- Neon Droid wallpapers -->
-    <string name="alpha_neon_droid_blue_title">Neon Droid (Blue)</string>
-    <string name="alpha_neon_droid_red_title">Neon Droid (Red)</string>
-    <string name="alpha_neon_droid_orange_title">Neon Droid (Orange)</string>
-    <string name="alpha_neon_droid_green_title">Neon Droid (Green)</string>
-    <string name="alpha_neon_droid_purple_title">Neon Droid (Purple)</string>
+    <string name="alpha_neon_droid_blue_title">Bluedroid</string>
+    <string name="alpha_neon_droid_red_title">Reddroid</string>
+    <string name="alpha_neon_droid_orange_title">Orangedroid</string>
+    <string name="alpha_neon_droid_green_title">Greendroid</string>
+    <string name="alpha_neon_droid_purple_title">Pulpledroid</string>
 </resources>
